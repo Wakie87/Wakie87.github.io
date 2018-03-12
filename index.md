@@ -134,9 +134,16 @@ Copy access credentials for SSH access by opening the server details.
 ## First SSH session
 
 (Windows 7, 8, 9 & 10) Download Putty <a href="http://www.putty.org/">http://www.putty.org/</a>
-
-
-(Linux/Mac) Open a command prompt. The basic syntax for SSH is ssh username@host For example if your VPS IP address was 192.168.2.1 and your user was root you would use the command ssh root@192.168.2.1
+Type ypur IP address from vultr into the Hostname and press Open.
+<img src="images/putty.png" alt="Putty" class="inline"/>
+An authentication screen may popup something like this (below) press Yes to continue
+<img src="images/putty_alert.png" alt="Putty Alert" class="inline"/>
+It will access for your username enter
+```
+root
+```
+It will then ask for the password. Copy it across from you Vultr dashboard and press enter.
+<img src="images/putty_console.png" alt="Putty Console" class="inline"/>
 
 ## Masternode script installation
 
