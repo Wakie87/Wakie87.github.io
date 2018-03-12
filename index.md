@@ -240,18 +240,18 @@ Masternode status
 ```
 
 ## Useful Websites
-http://monitor.masternodes.work/monitor
-http://pacmaster.nomukaiki.com/#!masternodes
+* http://monitor.masternodes.work/monitor
+* http://pacmaster.nomukaiki.com/#!masternodes
 
 ## Credits
-http://altcoin-guide.com/paccoin-vps-masternode-guide/
-http://monitor.masternodes.work/monitor
-http://pacmaster.nomukaiki.com/#!masternodes
-https://discord.gg/SdYuCm
+* http://altcoin-guide.com/paccoin-vps-masternode-guide/
+* http://monitor.masternodes.work/monitor
+* http://pacmaster.nomukaiki.com/#!masternodes
+* https://discord.gg/SdYuCm
+
 ***
-a
 ## Donations
-$PAC - PAgYbqC18zjJA3vbuuXYKMbhdyxovCJDhZ
-BTC - 33nXMpUbCEEK68Xb711Eda5Fn9vsyQWvMe
+* $PAC - PAgYbqC18zjJA3vbuuXYKMbhdyxovCJDhZ
+* BTC - 33nXMpUbCEEK68Xb711Eda5Fn9vsyQWvMe
 
 
