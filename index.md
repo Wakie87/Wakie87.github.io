@@ -171,7 +171,7 @@ The script downloads, compiles and configures the system now. This will usually 
 
 ### Step 5
 
-Now go back to your wallet click Tools and open masternode configuration file. 
+Now go back to your wallet click Tools > open masternode configuration file. 
 
 We want to add in a line with the following details. Pay attention to the spacing:
 ```
@@ -181,18 +181,32 @@ Substitute it with your own values and without the “<>”s So it should look l
 ```
 MN1 192.168.0.1:7112 PEzekAsRvh9Ej9s6RZLoAi8f265xAYb6kX e4chhijdjjinshhjj65jdkkrjjrjjf7jjs8ejdjjkkdk 1 
 ```
-It should look like something below:
+
 <img src="sublime_mnconfig.png" alt="Masternode Config" class="inline"/>
 
 Exit then restart the wallet
 
 Go to masterernode tab
 
-click “start alias” tab
-
+click the “start alias” button
 click okay to start MN1.
 
-Now everything should be up and running.
+Now to test that everything is up and running.
+From putty type the following:
+```
+./paccoin-cli masternode status
+```
+It should output something similar to
+```
+
+{
+  "outpoint": "f5abcdabcdabcdabce4d1ab87a32a8c848d554c935a89b46c3f7cd1fc8b4c-                                                                                                                 1",
+  "service": "207.148.82.192:7112",
+  "payee": "P56742312345678945612345679wXgzXDa6FFydG",
+  "status": "Masternode successfully started"
+}
+```
+
 
 * * *
 ## Troubleshooting the masternode on the VPS
@@ -215,3 +229,9 @@ Masternode status
 ```
 ./paccoin-cli getinfo
 ```
+
+
+
+http://monitor.masternodes.work/monitor
+
+http://pacmaster.nomukaiki.com/#!masternodes
