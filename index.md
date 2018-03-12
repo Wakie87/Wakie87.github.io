@@ -133,8 +133,6 @@ Copy access credentials for SSH access by opening the server details.
 
 (Linux/Mac) Open a command prompt. The basic syntax for SSH is ssh username@host For example if your VPS IP address was 192.168.2.1 and your user was root you would use the command ssh root@192.168.2.1
 
-<img src="images/masternode_vps/first-ssh-session.png" alt="VPS sizing" class="inline"/>
-
 ## Masternode script installation
 
 Copy the following and press enter.
