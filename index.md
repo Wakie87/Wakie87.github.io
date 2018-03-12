@@ -135,15 +135,18 @@ Copy access credentials for SSH access by opening the server details.
 ## First SSH session
 
 (Windows 7, 8, 9 & 10) Download Putty <a href="http://www.putty.org/">http://www.putty.org/</a>
+
 Type ypur IP address from vultr into the Hostname and press Open.
 <img src="images/putty.png" alt="Putty" class="inline"/>
+
 An authentication screen may popup something like this (below) press Yes to continue
 <img src="images/putty_alert.png" alt="Putty Alert" class="inline"/>
+
 It will access for your username enter
 ```
 root
 ```
-It will then ask for the password. Copy it across from you Vultr dashboard and press enter.
+It will then ask for the password. Copy it across from you Vultr dashboard and press enter. You should end up with a screen like below:
 <img src="images/putty_terminal.png" alt="Putty Console" class="inline"/>
 
 ## Masternode script installation
