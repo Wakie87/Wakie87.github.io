@@ -147,7 +147,7 @@ It will access for your username enter
 root
 ```
 It will then ask for the password. Copy it across from you Vultr dashboard and press enter. You should end up with a screen like below:
-<img src="images/putty_terminal.png" alt="Putty Console" class="inline"/>
+<img src="images/putty_terminal.png" alt="Putty Terminal" class="inline"/>
 
 ## Masternode script installation
 
@@ -206,7 +206,17 @@ It should output something similar to
   "status": "Masternode successfully started"
 }
 ```
+Visit one of the following websites and search for your IP address from Vultr.
 
+<a href="http://monitor.masternodes.work/monitor">http://monitor.masternodes.work/monitor</a>
+<a href="http://pacmaster.nomukaiki.com/#!masternodes">http://pacmaster.nomukaiki.com/#!masternodes</a>
+
+You should see ypur IP address as Enabled with a status of Activetime. 
+
+ActiveTime
+Node has not been active for more than # of Masternodes * 2.6 minutes
+
+It will take approx 3 days before activetime changes and Payable is enabled. You will then be randomlly selected for a masternode payment when you are in the top 10%.
 
 * * *
 ## Troubleshooting the masternode on the VPS
@@ -239,6 +249,7 @@ http://monitor.masternodes.work/monitor
 http://pacmaster.nomukaiki.com/#!masternodes
 https://discord.gg/SdYuCm
 ***
+a
 ## Donations
 $PAC - PAgYbqC18zjJA3vbuuXYKMbhdyxovCJDhZ
 BTC - 33nXMpUbCEEK68Xb711Eda5Fn9vsyQWvMe
