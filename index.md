@@ -10,7 +10,7 @@ layout: default
 ### Step 1
 
 We need to add the “Masternode Tab” in the $Pac wallet.
-Click on setting then options           
+Click on setting > options           
 <img src="images/pacoptions.png" alt="PAC Options" class="inline"/>
 
 Click on Wallet Tab
@@ -26,7 +26,7 @@ Exit the wallet and restart
 
 Open a text editor such as notepad or sublime, leave blank to store information.
 
-in the $Pac wallet select > Tools > Debug Console 
+In your $Pac wallet select > Tools > Debug Console 
 
 <img src="images/paccoindebug.png" alt="PAC Wallet" class="inline"/>
 
@@ -41,19 +41,22 @@ masternode genkey
 
 <img src="images/paccoingenkey.png" alt="PAC Wallet" class="inline"/>
 
-The Masternode genkey will appear in the console. Copy and paste it to your notepad. Make sure to label it MN1 masternode genkey for masternode 1. Keep all of your information together we will use it later on, its also nice to have in case you need to move a vps later on down the line.
+The Masternode genkey will appear in the console. Copy and paste it to your notepad. Make sure to label it MN1. 
+
+Keep all of your information together we will use it later on.
 
 ### Step 3
 
-Next you will need to send 500,000 $PAC coins to yourself (so you generate a Masternode TXID).
+Next you will need to send 500,000 $PAC coins to yourself.
 Click Receive on left menu on under $Pac Logo.
 
 Type MN1 in label box.
+Type 500000 in the amount box
 Click request payment. Copy address.
 
 Click Send on left menu on under $Pac Logo.
 
-Paste request address you just created. Once pasted the Label should automatically say MN1 so you know the coins are going back to your wallet and not to someone else. For a precaution you can double check the first and last few characters on the send address and receive address.
+Paste the request address you just created. Once pasted the Label should automatically say MN1 so you know the coins are going back to your wallet and not to someone else. For a precaution you can double check the first and last few characters on the send address and receive address.
 
 ### Step 4
 Once you have 15 conformations (check by mousing over payment in transaction window)  go back to debug window type:  
