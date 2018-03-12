@@ -143,7 +143,7 @@ It will access for your username enter
 root
 ```
 It will then ask for the password. Copy it across from you Vultr dashboard and press enter.
-<img src="images/putty_console.png" alt="Putty Console" class="inline"/>
+<img src="images/putty_terminal.png" alt="Putty Console" class="inline"/>
 
 ## Masternode script installation
 
