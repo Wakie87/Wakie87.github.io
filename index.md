@@ -201,7 +201,7 @@ It should output something similar to
 
 {
   "outpoint": "f5abcdabcdabcdabce4d1ab87a32a8c848d554c935a89b46c3f7cd1fc8b4c-                                                                                                                 1",
-  "service": "207.148.82.192:7112",
+  "service": "192.168.1.1:7112",
   "payee": "P56742312345678945612345679wXgzXDa6FFydG",
   "status": "Masternode successfully started"
 }
@@ -215,7 +215,7 @@ If you want to check the status of your masternode, the best way is currently ru
 
 start daemon
 ```
-./paccoind -->  
+./paccoind
 ```
 Stop daemon
 ```
@@ -225,13 +225,22 @@ Masternode status
 ```
 ./paccoin-cli masternode status
 ```
-
 ```
 ./paccoin-cli getinfo
 ```
 
-
-
+## Useful Websites
 http://monitor.masternodes.work/monitor
-
 http://pacmaster.nomukaiki.com/#!masternodes
+
+## Credits
+http://altcoin-guide.com/paccoin-vps-masternode-guide/
+http://monitor.masternodes.work/monitor
+http://pacmaster.nomukaiki.com/#!masternodes
+https://discord.gg/SdYuCm
+***
+## Donations
+$PAC - PAgYbqC18zjJA3vbuuXYKMbhdyxovCJDhZ
+BTC - 33nXMpUbCEEK68Xb711Eda5Fn9vsyQWvMe
+
+
