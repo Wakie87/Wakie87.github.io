@@ -5,7 +5,13 @@
 layout: default
 ---
 
-## Masternode Wallet Setup
+# Masternode Wallet Setup
+
+## REQUIREMENTS
+*   500,000 $PAC
+*   A main computer (Your everyday computer browsin’, game playing’ computer)
+*   Masternode Server (The computer that will be on 24/7)
+*   A unique IP address for EACH masternode
 
 ### Step 1
 
