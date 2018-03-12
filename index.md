@@ -208,6 +208,7 @@ It should output something similar to
 Visit one of the following websites and search for your IP address from Vultr.
 
 <a href="http://monitor.masternodes.work/monitor">http://monitor.masternodes.work/monitor</a>
+
 <a href="http://pacmaster.nomukaiki.com/#!masternodes">http://pacmaster.nomukaiki.com/#!masternodes</a>
 
 You should see ypur IP address as Enabled with a status of Activetime. 
@@ -215,12 +216,12 @@ You should see ypur IP address as Enabled with a status of Activetime.
 ActiveTime
 Node has not been active for more than # of Masternodes * 2.6 minutes
 
-It will take approx 3 days before activetime changes and Payable is enabled. You will then be randomlly selected for a masternode payment when you are in the top 10%.
+It will take approx 3-4 days before activetime changes and Payable is enabled. You will then be randomlly selected for a masternode payment when you are in the top 10%.
 
 * * *
 ## Troubleshooting the masternode on the VPS
 
-If you want to check the status of your masternode, the best way is currently running the paccoin-cli
+If you want to check the status of your masternode, the best way is currently running the paccoin-cli on your VP
 
 start daemon
 ```
