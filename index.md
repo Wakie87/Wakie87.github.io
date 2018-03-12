@@ -82,6 +82,7 @@ e4chhijdjjinshhjj65jdkkrjjrjjf7jjs8ejdjjkkdk 1
 ```
 Make sure to keep the “space” at the end between long address and last number.
 
+* * *
 
 # VPS SETUP
 
@@ -188,7 +189,7 @@ click okay to start MN1.
 
 Now everything should be up and running.
 
-
+* * *
 ## Troubleshooting the masternode on the VPS
 
 If you want to check the status of your masternode, the best way is currently running the paccoin-cli
