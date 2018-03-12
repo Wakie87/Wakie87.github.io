@@ -59,11 +59,11 @@ Click Send on left menu on under $Pac Logo.
 Paste the request address you just created. Once pasted the Label should automatically say MN1 so you know the coins are going back to your wallet and not to someone else. For a precaution you can double check the first and last few characters on the send address and receive address.
 
 ### Step 4
-Once you have 15 conformations (check by mousing over payment in transaction window)  go back to debug window type:  
+Once you have 15 conformations (check by mousing over payment in transaction window)  go back to the debug/console window and type:  
 ```
 masternode outputs
 ```
-in the console and press enter.
+and press enter.
 
 Copy the Masternode outputs to your notepad so we can correctly format it for later use.
 
@@ -100,13 +100,13 @@ First, create a new VPS by clicking that small "+" button.
 
 ## Location choice
 
-The location doesn't matter too much. If in doubt, choose a location next to you.
+The location doesn't matter too much. If in doubt, choose a location near you.
 
 <img src="images/location-choice.png" alt="VPS location choice" class="inline"/>
 
 ## Linux distribution (Ubuntu 16.04 LTS)
 
-Select Ubuntu 16.04, i am mostly testing for that version.
+Select Ubuntu 16.04 x64.
 
 <img src="images/linux-distribution--ubuntu-1604-lts-.png" alt="VPS location choice" class="inline"/>
 
@@ -119,7 +119,8 @@ A decent masternode needs a bit of RAM and some storage space. The $5 instance i
 
 ## Hostnames
 
-Choose a hostname you want and click "Deploy Now".
+Choose a hostname you want and click "Deploy Now". I called mine "
+```PAC_Masternode1```
 
 <img src="images/hostnames--amp--number-of-vps.png" alt="VPS sizing" class="inline"/>
 
