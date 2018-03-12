@@ -119,11 +119,10 @@ A decent masternode needs a bit of RAM and some storage space. The $5 instance i
 
 ## Hostnames
 
-Choose a hostname you want and click "Deploy Now". I called mine
+Choose a hostname you want and click "Deploy Now". I called mine :
 ```
 PAC_Masternode1
 ```
-
 <img src="images/hostnames--amp--number-of-vps.png" alt="VPS sizing" class="inline"/>
 
 ## Accessing your VPS via SSH
