@@ -177,12 +177,11 @@ We want to add in a line with the following details. Pay attention to the spacin
 ```
 <Name of Masternode(Use the name you entered earlier for simplicity)> <Vultr IP address>:7112 <The result of Step 2> <Result of Step 4> <The number after the long line in Step 4>
 ```
-Substitute it with your own values and without the “<>”s So it should look like something below:
+Substitute it with your own values and without the <>'s So it should look like something below:
 ```
 MN1 192.168.0.1:7112 PEzekAsRvh9Ej9s6RZLoAi8f265xAYb6kX e4chhijdjjinshhjj65jdkkrjjrjjf7jjs8ejdjjkkdk 1 
 ```
-
-<img src="sublime_mnconfig.png" alt="Masternode Config" class="inline"/>
+<img src="images/sublime_mnconfig.png" alt="Masternode Config" class="inline"/>
 
 Exit then restart the wallet
 
