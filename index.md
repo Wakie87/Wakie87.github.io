@@ -142,15 +142,13 @@ Type ypur IP address from vultr into the Hostname and press Open.
 An authentication screen may popup something like this (below) press Yes to continue
 <img src="images/putty_alert.png" alt="Putty Alert" class="inline"/>
 
-It will access for your username enter
+It will ask for your username so enter:
 ```
 root
 ```
-It will then ask for the password. Copy it across from you Vultr dashboard and press enter. 
+It will then ask for the password. Copy it across from you Vultr dashboard. 
 
-*   It is normal that the password is invisible. The cursor will not move.
-*   To paste your password just click the right mouse button, you will not see anything - it’s normal, press ENTER.
-*   Always use the right button click to paste text in PUTTY from WINDOWS
+If you are using Putty: To paste your password just click the right mouse button, you will not see anything - it’s normal, press ENTER. 
 
 You should end up with a screen like below:
 <img src="images/putty_terminal.png" alt="Putty Terminal" class="inline"/>
@@ -259,7 +257,7 @@ Then type CTRL+O -> ENTER -> CTRL+X (to save the changes and exit to command lin
 
 It should look like this
 
-<img src="images/putty_rclocal.png" alt="VPS sizing" class="inline"/>
+<img src="images/putty_rclocal.png" alt="Putty Nano" class="inline"/>
 
 
 ## Useful Websites
