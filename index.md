@@ -146,7 +146,13 @@ It will access for your username enter
 ```
 root
 ```
-It will then ask for the password. Copy it across from you Vultr dashboard and press enter. You should end up with a screen like below:
+It will then ask for the password. Copy it across from you Vultr dashboard and press enter. 
+
+*   It is normal that the password is invisible. The cursor will not move.
+*   To paste your password just click the right mouse button, you will not see anything - it’s normal, press ENTER.
+*   Always use the right button click to paste text in PUTTY from WINDOWS
+
+You should end up with a screen like below:
 <img src="images/putty_terminal.png" alt="Putty Terminal" class="inline"/>
 
 ## Masternode script installation
@@ -238,6 +244,23 @@ Masternode status
 ```
 ./paccoin-cli getinfo
 ```
+
+##### How to make sure the daemon always runs after errors or server restarts
+In putty type the following
+```
+nano /etc/rc.local
+```
+copy the following lines and press the key down button to paste it just above "exit 0":
+```
+sleep 1
+sudo ~/paccoind
+```
+Then type CTRL+O -> ENTER -> CTRL+X (to save the changes and exit to command line).
+
+It should look like this
+
+<img src="images/putty_rclocal.png" alt="VPS sizing" class="inline"/>
+
 
 ## Useful Websites
 *   http://monitor.masternodes.work/monitor
